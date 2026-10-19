@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\arjun\Robotic Arm Simulator\build\_deps\googletest-subbuild\CMakeFiles\806c1238c826f16fd341d7079e8913b2\googletest-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\arjun\Robotic Arm Simulator\build\_deps\googletest-subbuild\CMakeFiles\806c1238c826f16fd341d7079e8913b2\googletest-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\arjun\Robotic Arm Simulator\build\_deps\googletest-subbuild\CMakeFiles\806c1238c826f16fd341d7079e8913b2\googletest-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\arjun\Robotic Arm Simulator\build\_deps\googletest-subbuild\CMakeFiles\806c1238c826f16fd341d7079e8913b2\googletest-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\arjun\Robotic Arm Simulator\build\_deps\googletest-subbuild\CMakeFiles\806c1238c826f16fd341d7079e8913b2\googletest-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\arjun\Robotic Arm Simulator\build\_deps\googletest-subbuild\CMakeFiles\806c1238c826f16fd341d7079e8913b2\googletest-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\arjun\Robotic Arm Simulator\build\_deps\googletest-subbuild\CMakeFiles\806c1238c826f16fd341d7079e8913b2\googletest-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\arjun\Robotic Arm Simulator\build\_deps\googletest-subbuild\CMakeFiles\806c1238c826f16fd341d7079e8913b2\googletest-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\arjun\Robotic Arm Simulator\build\_deps\googletest-subbuild\CMakeFiles\73af2499a5873d93a766844f6660ecf9\googletest-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\arjun\Robotic Arm Simulator\build\_deps\googletest-subbuild\CMakeFiles\44fdacb6293bc80b16ce97475aefa807\googletest-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\arjun\Robotic Arm Simulator\build\_deps\googletest-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\arjun\Robotic Arm Simulator\build\_deps\googletest-subbuild\CMakeFiles\googletest-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{DBF04113-9334-3C17-A201-5F78C8670BD3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

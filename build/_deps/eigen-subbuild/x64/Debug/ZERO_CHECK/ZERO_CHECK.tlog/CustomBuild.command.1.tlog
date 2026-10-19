@@ -1,0 +1,10 @@
+^C:\USERS\ARJUN\ROBOTIC ARM SIMULATOR\BUILD\_DEPS\EIGEN-SUBBUILD\CMAKEFILES\FA16F294626AE86CE13CE1CA4F419809\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/arjun/Robotic Arm Simulator/build/_deps/eigen-subbuild" "-BC:/Users/arjun/Robotic Arm Simulator/build/_deps/eigen-subbuild" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/arjun/Robotic Arm Simulator/build/_deps/eigen-subbuild/eigen-populate.slnx"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
