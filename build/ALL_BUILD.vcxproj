@@ -174,6 +174,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
+    <ProjectReference Include="C:\Users\arjun\Robotic Arm Simulator\build\src\armsim.vcxproj">
+      <Project>{B9C1AEEA-E8BF-3F07-A4C1-0FE85E0C1651}</Project>
+      <Name>armsim</Name>
+    </ProjectReference>
     <ProjectReference Include="C:\Users\arjun\Robotic Arm Simulator\build\_deps\googletest-build\googlemock\gmock.vcxproj">
       <Project>{C629FB47-CCF4-31C9-89BA-06E7560B3E54}</Project>
       <Name>gmock</Name>
@@ -189,6 +193,14 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ProjectReference Include="C:\Users\arjun\Robotic Arm Simulator\build\_deps\googletest-build\googletest\gtest_main.vcxproj">
       <Project>{A2361FC8-8AE8-3DE8-82DD-7C986530C29F}</Project>
       <Name>gtest_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\arjun\Robotic Arm Simulator\build\src\my_app.vcxproj">
+      <Project>{5EFC4673-D514-330F-9CDD-78D3A49227BE}</Project>
+      <Name>my_app</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\arjun\Robotic Arm Simulator\build\tests\unit_tests.vcxproj">
+      <Project>{70B88FE8-8BC5-32CC-AC75-5810462C0AEA}</Project>
+      <Name>unit_tests</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
