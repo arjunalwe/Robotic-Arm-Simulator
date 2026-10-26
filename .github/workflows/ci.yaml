@@ -1,4 +1,3 @@
-yaml
 name: Robotic Arm Simulator CI
 on:
   push: {}
