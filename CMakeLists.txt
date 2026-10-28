@@ -8,10 +8,6 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 # must place above add_subdirectory
 enable_testing()
 
-add_subdirectory(src)
-add_subdirectory(tests)
-
-
 include(FetchContent)
 
 FetchContent_Declare(
@@ -30,3 +26,5 @@ FetchContent_Declare(
 
 FetchContent_MakeAvailable(googletest eigen)
   
+add_subdirectory(src)
+add_subdirectory(tests)
