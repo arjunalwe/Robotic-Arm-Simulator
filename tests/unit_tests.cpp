@@ -2,7 +2,7 @@
 #include "armsim.h" 
 
 TEST(ArmTest, JointCount) {
-    armsim::Sim sim; 
+    armsim::Arm arm;
     
-    EXPECT_EQ(sim.get_joint_count(), 7);
+    EXPECT_EQ(arm.get_dof(), arm);
 }
