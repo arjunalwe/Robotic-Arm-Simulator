@@ -1,5 +1,8 @@
 #include <gtest/gtest.h>
+#include "armsim.h" 
 
-TEST(SampleTest, Addition) {
-    EXPECT_EQ(2 + 2, 4);
+TEST(ArmTest, JointCount) {
+    armsim::Sim sim; 
+    
+    EXPECT_EQ(sim.get_joint_count(), 7);
 }
