@@ -10,21 +10,35 @@ namespace armsim {
         lengths.resize(dof, 1.0);
     }
 
-    Arm::Arm(std::initializer_list<double>& l) : lengths(l){
-        if (lengths.size() != dof){
+    Arm::Arm(std::initializer_list<double> l): lengths(l){
+        if (l.size() != dof){
             throw(TooManyLinksException());
         }
     }
 
-    void Arm::set_link_lengths(std::initializer_list<double>& l){
+    void Arm::set_link_lengths(std::initializer_list<double> l){
         if (l.size() != dof){
             throw(TooManyLinksException());
         }
-        lengths = l;
+        lengths = Eigen::VectorXd(l);
     }
 
     int Arm::get_dof(){
         return dof;
+    }
+
+    Eigen::Vector2d Arm::forward_kinematics(Eigen::Vector2d& angles){
+        Eigen::Vector2d cumulative_angles;
+        cumulative_angles << angles(0), angles(0) + angles(1);
+
+        auto l = lengths.head<2>().array();
+        auto theta = cumulative_angles.array();
+
+        Eigen::Vector2d position;
+        position << (l * theta.cos()).sum(),
+                    (l * theta.sin()).sum();
+
+        return position;
     }
 
 }

@@ -3,6 +3,7 @@
 #include <vector>
 #include <iostream>
 #include <string>
+#include <numbers>
 #include <initializer_list>
 #include <Eigen/Dense>
 
@@ -12,12 +13,12 @@ namespace armsim {
         private:
             const static int dof = 2;
         public:
-            std::vector<double> lengths; 
+            Eigen::VectorXd lengths; 
             Arm();
-            Arm(std::initializer_list<double>& l);
+            Arm(std::initializer_list<double> l);
             int get_dof();
-            void set_link_lengths(std::initializer_list<double>& l);
-            Eigen::Vector2d forward_kinematics();
+            void set_link_lengths(std::initializer_list<double> l);
+            Eigen::Vector2d forward_kinematics(Eigen::Vector2d& angles);
     };  
 
     class ARMSIM_EXPORT TooManyLinksException : public std::exception {
