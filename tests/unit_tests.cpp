@@ -4,5 +4,5 @@
 TEST(ArmTest, JointCount) {
     armsim::Arm arm;
     
-    EXPECT_EQ(arm.get_dof(), arm);
+    EXPECT_EQ(arm.get_dof(), 2);
 }
